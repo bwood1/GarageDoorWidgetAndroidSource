@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/setPasswordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/setIpLabel"
+        android:layout_below="@+id/setIpLabel"
+        android:layout_marginTop="65dp"
+        android:text="@string/setPasswordLabel" />
+
+    <Button
+        android:id="@+id/submitChanges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setPasswordField"
+        android:layout_marginTop="43dp"
+        android:layout_toRightOf="@+id/setPasswordLabel"
+        android:text="@string/setSettingsButton" />
+
+    <TextView
+        android:id="@+id/setIpLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="71dp"
+        android:text="@string/setIPLabel" />
+
+    <EditText
+        android:id="@+id/setIpField"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/setIpLabel"
+        android:layout_alignBottom="@+id/setIpLabel"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="@string/ipHint"
+        android:textSize="5pt" />
+
+    <EditText
+        android:id="@+id/setPasswordField"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/setPasswordLabel"
+        android:layout_alignBottom="@+id/setPasswordLabel"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="@string/passwordHint"
+        android:inputType="textPassword"
+        android:textSize="5pt" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>
+
+
+
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dip" >
+
+    <EditText
+        android:textSize="5.0pt"
+        android:id="@id/setIPFiel"
+        android:layout_width="200.0dip"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="38.0dip"
+        android:layout_marginRight="10.0dip"
+        android:hint="@string/ipHint"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:inputType="text"
+        android:imeOptions="actionDone" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/setIPLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setIPLabel"
+        android:layout_alignBaseline="@id/setIPFiel"
+        android:layout_alignBottom="@id/setIPFiel"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/setPasswordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/setIPFiel"
+        android:layout_marginTop="46dp"
+        android:text="@string/setPasswordLabel" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setPasswordField"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="38dp"
+        android:layout_toRightOf="@+id/setPasswordLabel"
+        android:text="Button" />
+
+    <EditText
+        android:id="@id/setPasswordField"
+        android:layout_width="200.0dip"
+        android:layout_height="30.0dip"
+        android:layout_alignBaseline="@+id/setPasswordLabel"
+        android:layout_alignBottom="@+id/setPasswordLabel"
+        android:layout_alignLeft="@id/setIPFiel"
+        android:ems="10"
+        android:hint="@string/passwordHint"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:textSize="4.299988pt" />
+
+</RelativeLayout>
+ -->

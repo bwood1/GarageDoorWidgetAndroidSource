@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Garage Door Widget</string>
+    <string name="widget_text">Hello World</string>
+    <string name="leftButton">Left Door</string>
+    <string name="rightButton">Right Door</string>
+    <string name="title_activity_main">Garage Door Widget Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="setIPLabel">IP of server:</string>
+    <string name="setSettingsButton">Submit</string>
+    <string name="ipHint">192.168.1.10 or hostname</string>
+    <string name="setPasswordLabel">Secret Key:</string>
+    <string name="passwordHint">Keep it secret. Keep it safe.</string>
+</resources>

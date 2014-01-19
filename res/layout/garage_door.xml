@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/garageDoorWidgetLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/lDoorButton"
+        android:layout_width="wrap_content" 
+        android:layout_height="100.0dip"
+        android:layout_marginLeft="40.0dip"
+        android:text="@string/leftButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/rDoorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="100.0dip"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40.0dip"
+        android:text="@string/rightButton" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider
+    android:minWidth="250.0dip"
+    android:minHeight="50.0dip"
+    android:updatePeriodMillis="8094798"
+    android:initialLayout="@layout/garage_door"
+    android:widgetCategory="0x3"
+  	xmlns:android="http://schemas.android.com/apk/res/android" />
